@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Outputs
+*.m4b
+
+# Temporary files
+*.tmp
+*.log

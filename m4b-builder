@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Thin wrapper so the repository can be installed/copied as `m4b-builder`
+# while keeping the main script in `m4b-builder.sh`.
+
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)
+exec "$SCRIPT_DIR/m4b-builder.sh" "$@"
